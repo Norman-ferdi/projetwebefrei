@@ -1,0 +1,133 @@
+body {
+	background-image: url( "https://images.squarespace-cdn.com/content/v1/582e2b0803596e83b828e71e/1480175838739-WIYLA3P9L5AT8DDI0JUK/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/blue-triangle-wallpaper-5071-5313-hd-wallpapers.png?format=1500w");
+	background-size: 2000px;
+}
+
+
+#tableau {
+	margin: 50px;
+	text-align: center;
+
+}
+
+nav li {
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	margin: 10px;
+	padding: 0px;
+	border : 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 40px;
+}
+nav li a {
+	display: block;
+	text-decoration: none ;
+	color: black;
+}
+
+nav ul {
+	background-color: #1D658E;
+	list-style-type: none;
+	padding: 0px
+	margin: 0px;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	margin: 100px;
+}
+
+p {
+	margin: 100px;
+}
+#msg {
+	margin-left: 100px;
+	width: 500px;
+	height: 100px;
+}
+#bouton {
+	margin-left: 280px;
+	height: 100px;
+}
+
+#gauche {
+	float:left;
+    width:700px;
+    height:100%;
+    margin-top: 20px;
+}
+#droite {
+	margin-top:0px;
+    width:255px;
+    height:10%;	
+    margin-left:740px;
+
+}
+
+
+
+#container{
+    width:700px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+h3 {
+    font-family: "Arial";
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1D658E;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: #1D658E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.registerbtn {
+  background-color: #1D658E;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+    background-color: white;
+    color: #1D658E;
+    border: 1px solid #1D658E;
+}
+
